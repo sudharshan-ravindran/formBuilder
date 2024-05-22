@@ -1,7 +1,7 @@
 'use strict';
 
 ((window.gitter = {}).chat = {}).options = {
-  room: 'kevinchappell/formBuilder'
+  room: 'sudharshan/formBuilder'
 };
 
 const toast = opts => {
@@ -19,7 +19,7 @@ const toast = opts => {
 
 const copyBtnImg = () => {
   const img = document.createElement('img')
-  img.src = 'https://formbuilder.online/docs/img/clipboard.svg'
+  img.src = 'https://sudharshanformbuilder.online/docs/img/clipboard.svg'
   img.className = 'clippy'
   img.width = 13
   img.alt = 'Copy to clipboard'

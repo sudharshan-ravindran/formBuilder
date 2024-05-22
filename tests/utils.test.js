@@ -244,18 +244,18 @@ describe('Test escaping', () => {
 
 describe('Test util Asset inclusion', () => {
   test('can include style via href link', () => {
-    utils.getStyles('https://formbuilder.online/assets/css/site.min.css?1')
-    const linkTag = document.querySelector('head > link[href="https://formbuilder.online/assets/css/site.min.css?1"]')
+    utils.getStyles('https://sudharshanformbuilder.online/assets/css/site.min.css?1')
+    const linkTag = document.querySelector('head > link[href="https://sudharshanformbuilder.online/assets/css/site.min.css?1"]')
     expect(linkTag).toBeInstanceOf(HTMLLinkElement)
-    expect(window.fbLoaded.css).toContain('https://formbuilder.online/assets/css/site.min.css?1')
+    expect(window.fbLoaded.css).toContain('https://sudharshanformbuilder.online/assets/css/site.min.css?1')
   })
   test('can include style via href object', () => {
     utils.getStyles({
       'id': 'test1',
       'type': 'href',
-      'href': 'https://formbuilder.online/assets/css/site.min.css?2'
+      'href': 'https://sudharshanformbuilder.online/assets/css/site.min.css?2'
     })
-    const linkTag = document.querySelector('head > link[href="https://formbuilder.online/assets/css/site.min.css?2"]')
+    const linkTag = document.querySelector('head > link[href="https://sudharshanformbuilder.online/assets/css/site.min.css?2"]')
     expect(linkTag).toBeInstanceOf(HTMLLinkElement)
     expect(window.fbLoaded.css).toContain('test1')
   })
@@ -272,8 +272,8 @@ describe('Test util Asset inclusion', () => {
   })
 
   test('include js', async () => {
-    await getScripts('https://formbuilder.online/assets/js/form-builder.min.js').then(() => {
-      expect(window.fbLoaded.js).toContain('https://formbuilder.online/assets/js/form-builder.min.js')
+    await getScripts('https://sudharshanformbuilder.online/assets/js/form-builder.min.js').then(() => {
+      expect(window.fbLoaded.js).toContain('https://sudharshanformbuilder.online/assets/js/form-builder.min.js')
     })
   })
 })

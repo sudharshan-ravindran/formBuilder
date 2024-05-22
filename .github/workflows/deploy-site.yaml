@@ -19,7 +19,7 @@ jobs:
       - name: Checkout formBuilder
         uses: actions/checkout@v4
         with:
-          repository: kevinchappell/formBuilder
+          repository: sudharshan/formBuilder
           fetch-depth: 1
           ref: master
           path: formBuilder
@@ -33,7 +33,7 @@ jobs:
       - name: Checkout formBuilder-site
         uses: actions/checkout@v4
         with:
-          repository: kevinchappell/formBuilder-site
+          repository: sudharshan/formBuilder-site
           path: formBuilder-site
           fetch-depth: 1
           ref: master

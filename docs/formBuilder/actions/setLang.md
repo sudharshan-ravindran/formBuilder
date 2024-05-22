@@ -11,4 +11,4 @@ Change the editor language without reloading.
   });
 ```
 ## See it in Action
-<p data-height="580" data-theme-id="22927" data-slug-hash="PNZZmw" data-default-tab="result" data-user="kevinchappell" class="codepen"></p>
+<p data-height="580" data-theme-id="22927" data-slug-hash="PNZZmw" data-default-tab="result" data-user="sudharshan" class="codepen"></p>

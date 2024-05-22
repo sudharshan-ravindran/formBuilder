@@ -1,7 +1,7 @@
 require('./setup-fb')
 require('./../src/js/form-builder.js')
 
-const LANGUAGE_LOCATION = 'https://raw.githubusercontent.com/kevinchappell/formBuilder-languages/master/'
+const LANGUAGE_LOCATION = 'https://raw.githubusercontent.com/sudharshan/formBuilder-languages/master/'
 
 describe('FormBuilder stage names translated', () => {
   test('boolAttribute name translated', async () => {

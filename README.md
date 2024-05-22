@@ -1,6 +1,6 @@
-# formBuilder [![npm version](https://badge.fury.io/js/formBuilder.svg)](https://badge.fury.io/js/formBuilder) [![Join the chat at https://gitter.im/kevinchappell/formBuilder](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/kevinchappell/formBuilder?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+# formBuilder [![npm version](https://badge.fury.io/js/formBuilder.svg)](https://badge.fury.io/js/formBuilder) [![Join the chat at https://gitter.im/sudharshan/formBuilder](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/sudharshan/formBuilder?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-A jQuery plugin for drag and drop form creation, formBuilder has [many options](https://formbuilder.online/docs/formBuilder/overview/) and is translatable.
+A jQuery plugin for drag and drop form creation, formBuilder has [many options](https://sudharshanformbuilder.online/docs/formBuilder/overview/) and is translatable.
 
 **Example**
 
@@ -10,13 +10,13 @@ jQuery($ => {
 })
 ```
 
-## [Editor Demo](https://formbuilder.online/)
+## [Editor Demo](https://sudharshanformbuilder.online/)
 
-[![form-builder](https://cloud.githubusercontent.com/assets/1457540/16901016/d415f75c-4c2e-11e6-8687-a84c9822162d.png)](https://formbuilder.online/)
+[![form-builder](https://cloud.githubusercontent.com/assets/1457540/16901016/d415f75c-4c2e-11e6-8687-a84c9822162d.png)](https://sudharshanformbuilder.online/)
 
-## [API Demo](https://kevinchappell.github.io/formBuilder/)
+## [API Demo](https://sudharshan.github.io/formBuilder/)
 
-## [Documentation](https://formbuilder.online/docs)
+## [Documentation](https://sudharshanformbuilder.online/docs)
 
 ### Browser Support
 
@@ -26,8 +26,8 @@ jQuery($ => {
 
 ## [Angular 2/4 Version](https://github.com/KhaledSMQ/Ng2FormBuilder)
 
-## [Changelog](https://github.com/kevinchappell/formBuilder/blob/master/CHANGELOG.md)
+## [Changelog](https://github.com/sudharshan/formBuilder/blob/master/CHANGELOG.md)
 
 ## Translators Needed!
 
-As formBuilder usage grows so does its need to be available in multiple languages. Additions and updates to existing languages are always welcome, see [Contributing Languages](https://github.com/kevinchappell/formBuilder-languages/blob/master/CONTRIBUTING.md) for details.
+As formBuilder usage grows so does its need to be available in multiple languages. Additions and updates to existing languages are always welcome, see [Contributing Languages](https://github.com/sudharshan/formBuilder-languages/blob/master/CONTRIBUTING.md) for details.

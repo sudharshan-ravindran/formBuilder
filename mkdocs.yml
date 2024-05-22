@@ -1,7 +1,7 @@
 site_name: formBuilder
-site_url: https://formbuilder.online
+site_url: https://sudharshanformbuilder.online
 site_dir: site/public/docs
-repo_url: https://github.com/kevinchappell/formBuilder
+repo_url: https://github.com/sudharshan/formBuilder
 repo_name: 'GitHub'
 site_description: A jQuery plugin for drag and drop form creation
 theme:
@@ -11,7 +11,7 @@ theme:
   hljs_languages:
     - bash
     - javascript
-google_analytics: ['UA-4784386-21', 'formbuilder.online/docs']
+google_analytics: ['UA-4784386-21', 'sudharshanformbuilder.online/docs']
 nav:
 - Introduction: index.md
 - Getting Started: getting-started.md

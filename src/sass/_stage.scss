@@ -30,7 +30,8 @@
   list-style-type: none;
   min-height: 200px;
   transition: background-color 500ms ease-in-out;
-
+  background-color: #79454573; // 21-MAY-2024
+  
   .formbuilder-required {
     color: $error;
   }
@@ -43,6 +44,7 @@
     &:hover {
       .field-actions {
         opacity: 1;
+        background: $hover-background; // 21-MAY-2024
       }
 
       border-color: #66afe9;
@@ -51,7 +53,7 @@
 
       li {
         :hover {
-          background: #fefefe;
+          background: $hover-background; // 21-MAY-2024
         }
       }
     }
@@ -195,6 +197,7 @@
     .field-label {
       display: block;
       overflow-wrap: break-word;
+      background-color: $custome-card-top-color; // 21-MAY-2024
     }
 
     &.button-field,
@@ -214,11 +217,13 @@
 
       .field-label {
         display: none;
+        background-color: $custome-card-top-color; // 21-MAY-2024
       }
 
       &.editing {
         .field-label {
           display: block;
+          background-color: $custome-card-top-color; // 21-MAY-2024
         }
       }
     }
@@ -233,6 +238,7 @@
     &.checkbox-field {
       .field-label {
         display: none;
+        background-color: $custome-card-top-color; // 21-MAY-2024
       }
     }
   }
@@ -341,6 +347,8 @@
     line-height: 27px;
     font-size: 16px;
     font-weight: normal;
+    background-color: $custome-card-top-color; // 21-MAY-2024
+    color: $custome-font-color;
   }
 
   .disabled-field .field-label {
@@ -387,7 +395,7 @@
       line-height: 32px;
       font-size: 16px;
       border-width: 0 0 1px 1px;
-
+      color: $custome-font-color; // 21-MAY-2024
       &:first-child {
         border-bottom-left-radius: 5px;
       }
@@ -715,6 +723,7 @@
 @at-root #{selector-append(".formbuilder-mobile", &)} {
   .field-actions {
     opacity: 1;
+    background-color: #241919; // 21-MAY-2024
   }
 }
 

@@ -5,6 +5,7 @@
 .form-wrap.form-builder {
   * {
     box-sizing: border-box;
+    color: $custome-font-color; // 21-MAY-2024
   }
 
   &.formbuilder-embedded-bootstrap {

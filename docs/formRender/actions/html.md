@@ -8,4 +8,4 @@ const html = $('#render-container').formRender('html'); // HTML string
 ```
 
 ### In Action
-<p data-height="300" data-theme-id="22927" data-slug-hash="wWvyaM" data-default-tab="result" data-user="kevinchappell" data-embed-version="2" class="codepen"></p>
+<p data-height="300" data-theme-id="22927" data-slug-hash="wWvyaM" data-default-tab="result" data-user="sudharshan" data-embed-version="2" class="codepen"></p>

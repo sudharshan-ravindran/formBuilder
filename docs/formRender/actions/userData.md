@@ -46,7 +46,7 @@ var frInstance = $('#renderMe').formRender(fbOptions);
 ```
 
 ## Demo
-<p data-height="300" data-theme-id="22927" data-slug-hash="QGjqbV" data-default-tab="js,result" data-user="kevinchappell" data-pen-title="formRender: userData" class="codepen">See the Pen</p>
+<p data-height="300" data-theme-id="22927" data-slug-hash="QGjqbV" data-default-tab="js,result" data-user="sudharshan" data-pen-title="formRender: userData" class="codepen">See the Pen</p>
 
 
 

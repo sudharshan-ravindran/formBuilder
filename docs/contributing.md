@@ -26,21 +26,21 @@ While not required, the following tools are recommended to maintain code quality
 
 Navigate to the directory you'll be working from and run:
 ```bash
-$ git clone https://github.com/kevinchappell/formBuilder.git form-builder
+$ git clone https://github.com/sudharshan/formBuilder.git form-builder
 $ cd form-builder
 $ npm i
 $ npm start
 ```
 
-The above code will clone the repo, install the required `node_modules` and run the default `npm start` script. You should now have a locally running version of the [demo page](https://kevinchappell.github.io/formBuilder/).
+The above code will clone the repo, install the required `node_modules` and run the default `npm start` script. You should now have a locally running version of the [demo page](https://sudharshan.github.io/formBuilder/).
 
 ## Getting Started
 If you've followed the above steps you're ready to start making changes. All changes to the plugin should be made in the `/src` directory. The build process will transpile, lint and concatenate the contents of `/src` into the files found in `/dist`. Any changes made in the `/dist` will be lost once the build process is run.
 
-For more information on build processes, editing fonts or adding custom fields please see the documentation [here](https://formbuilder.online/docs/).
+For more information on build processes, editing fonts or adding custom fields please see the documentation [here](https://sudharshanformbuilder.online/docs/).
 
 ## Documentation
-For more information on build processes, editing fonts or adding custom fields please see the development section [here](https://formbuilder.online/docs/development/).
+For more information on build processes, editing fonts or adding custom fields please see the development section [here](https://sudharshanformbuilder.online/docs/development/).
 
 ## Notes
 Windows users, remember to configure your line endings with `core.autocrlf`. More info [here](https://help.github.com/articles/dealing-with-line-endings/#platform-windows)

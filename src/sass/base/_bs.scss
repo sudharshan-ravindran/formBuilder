@@ -3,7 +3,7 @@ button,
 input,
 select,
 textarea {
-  font-family: inherit;
+  font-family: Tahoma, Verdana, sans-serif;
   font-size: inherit;
   line-height: inherit;
 }
@@ -87,6 +87,13 @@ textarea {
   user-select: none;
   background-image: none;
   border-radius: 4px;
+  color: $custome-font-color; // 21-MAY-2024
+  background: $button-background; // 21-MAY-2024
+
+  &.btn-success {
+    background: green; // 21-MAY-2024
+  }
+
 
   &.btn-lg {
     padding: 10px 16px;

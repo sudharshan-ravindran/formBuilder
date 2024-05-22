@@ -16,4 +16,4 @@ $(fbEditor).formBuilder().promise.then(formBuilder => {
 });
 ```
 ## See it in Action
-<p data-height="525" data-theme-id="22927" data-embed-version="2" data-slug-hash="ybgqLK" data-default-tab="js" data-user="kevinchappell" class="codepen"></p>
+<p data-height="525" data-theme-id="22927" data-embed-version="2" data-slug-hash="ybgqLK" data-default-tab="js" data-user="sudharshan" class="codepen"></p>

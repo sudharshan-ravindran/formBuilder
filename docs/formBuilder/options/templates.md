@@ -1,7 +1,7 @@
 # templates
 Often used in conjunction with the `fields` option, `templates` allows you to define a custom output for new or existing fields.
 
-For total control in creating not only custom controls but also custom output see: [Controls](https://formbuilder.online/docs/formBuilder/controls/), [Control Plugins](https://formbuilder.online/docs/formBuilder/control-plugins/) and [Layout](https://formbuilder.online/docs/formBuilder/overview/#layouts)
+For total control in creating not only custom controls but also custom output see: [Controls](https://sudharshanformbuilder.online/docs/formBuilder/controls/), [Control Plugins](https://sudharshanformbuilder.online/docs/formBuilder/control-plugins/) and [Layout](https://sudharshanformbuilder.online/docs/formBuilder/overview/#layouts)
 
 ## Usage
 ```javascript
@@ -25,4 +25,4 @@ let templates = {
 $(container).formBuilder({fields, templates});
 ```
 ## See it in Action
-<p data-height="525" data-theme-id="22927" data-embed-version="2" data-slug-hash="PmPByP" data-default-tab="result" data-user="kevinchappell" class="codepen"></p>
+<p data-height="525" data-theme-id="22927" data-embed-version="2" data-slug-hash="PmPByP" data-default-tab="result" data-user="sudharshan" class="codepen"></p>

@@ -3,7 +3,7 @@
 }
 
 .wy-body-for-nav {
-  background: #f2f2f2 url('https://formbuilder.online/assets/img/noise.png') repeat fixed;
+  background: #f2f2f2 url('https://sudharshanformbuilder.online/assets/img/noise.png') repeat fixed;
 }
 
 .wy-nav-content {
@@ -11,7 +11,7 @@
 }
 
 .wy-side-nav-search {
-  background-image: url('https://formbuilder.online/docs/img/logo-bg.svg'), linear-gradient(to bottom, #000, #92278F);
+  background-image: url('https://sudharshanformbuilder.online/docs/img/logo-bg.svg'), linear-gradient(to bottom, #000, #92278F);
   background-size: cover, 100% 100%;
   background-position: 50% 0, 50% 0%;
 }
@@ -37,7 +37,7 @@ p {
 
 .wy-menu-vertical li.current > a {
   color: #000;
-  background: #f2f2f2 url('https://formbuilder.online/assets/img/noise.png') repeat 50% 50%;
+  background: #f2f2f2 url('https://sudharshanformbuilder.online/assets/img/noise.png') repeat 50% 50%;
 }
 
 .wy-menu-vertical ul {
@@ -71,10 +71,11 @@ code.hljs .btn {
   position: absolute;
   top: 0;
   right: 0;
-  background-color: #cfcfcf;
+  background-color: #706060;
   border-radius: 0 0 0 5px;
   box-shadow: none;
   padding: 4px 6px;
+  
 }
 
 code.hljs:hover .btn {

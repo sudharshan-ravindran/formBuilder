@@ -24,7 +24,7 @@ export default class customControls {
 
   /**
    * Override the register method to allow passing 'templates' configuration data
-   * @param {Object} templates an object/hash of template data as defined https://formbuilder.online/docs/formBuilder/options/templates/
+   * @param {Object} templates an object/hash of template data as defined https://sudharshanformbuilder.online/docs/formBuilder/options/templates/
    * @param {Array} fields
    */
   register(templates = {}, fields = []) {
@@ -157,7 +157,7 @@ export default class customControls {
    */
   icon(type) {
     // @todo - support for `${css_prefix_text}${attr.name}` - is this for inputSets? Doesnt look like it but can't see anything else that sets attr.name?
-    // https://formbuilder.online/docs/formBuilder/options/inputSets/
+    // https://sudharshanformbuilder.online/docs/formBuilder/options/inputSets/
     const def = this.definition
     if (def && typeof def.icon === 'object') {
       return def.icon[type]

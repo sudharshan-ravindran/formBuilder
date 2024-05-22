@@ -21,7 +21,7 @@ const typeUserAttrs = {
 };
 ```
 
-## [Example with i18n support](https://codepen.io/kevinchappell/pen/EMqvbG?editors=1010)
+## [Example with i18n support](https://codepen.io/sudharshan/pen/EMqvbG?editors=1010)
 
 ## Example Checkbox
 ```javascript
@@ -77,4 +77,4 @@ const typeUserAttrs = {
 ```
 
 ### Usage
-<p data-height="525" data-embed-version="2" data-theme-id="22927" data-slug-hash="yaJbZZ" data-default-tab="js,result" data-user="kevinchappell" class="codepen"></p>
+<p data-height="525" data-embed-version="2" data-theme-id="22927" data-slug-hash="yaJbZZ" data-default-tab="js,result" data-user="sudharshan" class="codepen"></p>

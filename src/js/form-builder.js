@@ -2506,7 +2506,7 @@ const pluginInit = function (options, elem) {
   const notInitialised = () => {
     console.error('formBuilder is still initialising')
     console.info(
-      'See https://formbuilder.online/docs/formBuilder/actions/getData/#wont-work and https://formbuilder.online/docs/formBuilder/promise/ for more information on formBuilder asynchronous loading',
+      'See https://sudharshanformbuilder.online/docs/formBuilder/actions/getData/#wont-work and https://sudharshanformbuilder.online/docs/formBuilder/promise/ for more information on formBuilder asynchronous loading',
     )
   }
 

@@ -1,6 +1,6 @@
 import '../sass/demo.scss'
 import { insertStyle, removeStyle } from '../../js/utils'
-import { demoActions, generateActionTable, setCurrentFieldIdValues } from './actionButtons'
+import { demoActions, setCurrentFieldIdValues } from './actionButtons'
 
 const localeSessionKey = 'formBuilder-locale'
 const defaultLocale = 'en-US'
@@ -66,12 +66,12 @@ jQuery(function ($) {
     {
       id: 'smile',
       className: 'btn btn-success',
-      label: '😁',
+      label: 'Preview Template',
       type: 'button',
       events: {
         click: () => {
           // @todo toggle options editor instead
-          alert('😁😁😁 !SMILE! 😁😁😁')
+          alert('OK')
         },
       },
     },
@@ -321,7 +321,7 @@ jQuery(function ($) {
 
     langSelect.value = savedLocale
     fb.actions.setLang(savedLocale)
-
+/*
     const columns = ['action', 'description', 'demo']
     const actions = {
       getFieldTypes: 'Get the registered field types for the form.',
@@ -361,7 +361,7 @@ jQuery(function ($) {
         setFormDataInputValue.value = window.JSON.stringify(JSON.parse(formData), null, '  ')
       }
     }
-
+*/
     langSelect.addEventListener(
       'change',
       ({ target: { value: lang } }) => {

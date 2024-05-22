@@ -267,7 +267,7 @@ export default class control {
    */
   static icon(type) {
     // @todo - support for `${css_prefix_text}${attr.name}` - is this for inputSets? Doesnt look like it but can't see anything else that sets attr.name?
-    // https://formbuilder.online/docs/formBuilder/options/inputSets/
+    // https://sudharshanformbuilder.online/docs/formBuilder/options/inputSets/
     const def = this.definition
     if (def && typeof def.icon === 'object') {
       return def.icon[type]

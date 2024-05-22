@@ -66,4 +66,4 @@ var options = {
 };
 $(container).formBuilder(options);
 ```
-<p data-height="725" data-embed-version="2" data-theme-id="22927" data-slug-hash="YGjAKo" data-default-tab="result" data-user="kevinchappell" class="codepen"></p>
+<p data-height="725" data-embed-version="2" data-theme-id="22927" data-slug-hash="YGjAKo" data-default-tab="result" data-user="sudharshan" class="codepen"></p>

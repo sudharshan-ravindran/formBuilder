@@ -1,14 +1,14 @@
 {
-  "name": "kevinchappell/form-builder",
+  "name": "sudharshan/form-builder",
   "type": "library",
-  "description": "jQuery formBuilder",
+  "description": "E Statement Builder",
   "keywords": [
     "form",
     "builder",
     "formbuilder",
     "form builder"
   ],
-  "homepage": "https://formbuilder.online",
+  "homepage": "https://sudharshanformbuilder.online",
   "license": "MIT",
   "authors": [{
     "name": "Kevin Chappell",

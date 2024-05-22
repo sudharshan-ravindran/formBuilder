@@ -23,7 +23,7 @@ jobs:
         run: npm install
       - name: Build the plugin
         run: npm run build:all
-      - name: Deploy Demo 🚀 https://kevinchappell.github.io/formBuilder/
+      - name: Deploy Demo 🚀 https://sudharshan.github.io/formBuilder/
         if: success()
         uses: JamesIves/github-pages-deploy-action@v4.3.0
         with:
